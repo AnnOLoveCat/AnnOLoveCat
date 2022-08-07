@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= device-width, height=device-height, initial-scale=1.0, user-scalable=yes" />
+    <title>Annu's Home</title>
+    <!-- font-awesome -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <!-- extra fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap"rel="stylesheet"/>
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!--preloader-->
+    <div class="preloader">
+        <img src="./videos/Loading_icon.gif" alt="preloader" />
+    </div>
+    <nav id="nav">
+        <div class="nav-center">
+            <div class="nav-header">
+                <img src="./pics/index_logo.png" alt="logo" class="logo" />
+                <button class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <!--links container -->
+            <div class="links-container">
+                <!-- links -->
+                <ul class="links">
+                    <li>
+                    <a href="#index"
+                         class = "scoll-link">home</a>
+                    </li>
+                    <li>
+                    <a href="about.html"
+                        class = "scoll-link">about</a>
+                    </li>
+                    <li>
+                    <a href="notes.html"
+                        class = "scoll-link">code notes</a>
+                    </li>
+                    <li>
+                    <a href="contact.html" 
+                        class = "scoll-link">contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- social media -->
+            <ul class="social-icons">
+                <li>
+                <a href="https://github.com/AnnOLoveCat?tab=repositories">
+                    <i class="fab fa-github"></i>
+                </a>
+                </li>
+                <li>
+                <a href="https://twitter.com/AnnULoveCat">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                </li>
+                <li>
+                <a href="https://www.youtube.com/channel/UCuxsgEw1ZFdXdkIkWLL-D3Q">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                </li>
+                <li>
+                <a href="https://www.linkedin.com/in/lovecat-annu-16224a22b/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                </li>
+                <li>
+                <a href="https://www.instagram.com/annulovecat/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--header-->
+    <header id = "home">
+        <video class="video-container" muted autoplay loop>
+            <source src = "./videos/business.mp4" type="video/mp4" />
+        </video>
+        <h1>welcome to Annu's website</h1>
+        <!--video switcher-->
+        <button class = "switch-btn">
+            <span>play</span>
+            <span>pause</span>
+            <span class = "switch"></span>
+        </button>
+    </header>
+
+    <section class="questions">
+        <!--title-->
+        <div class="title">
+            <h2>general question</h2>
+        </div>
+
+        <!--questions-->
+        <div class="section-center">
+            <!--single question 1-->
+            <article class="question">
+                <!---title question-->
+                <div class="question-title">
+                    <p>what's my major subject and which school did i graduated</p>
+                    <button type = "button" class="question-btn">
+                        <span class = "plus-icon">
+                            <i class="far fa-plus-square"></i>
+                        </span>
+                        <span class = "minus-icon">
+                            <i class="far fa-minus-square"></i>
+                        </span>
+                    </button>
+                </div>
+                <!--questions text-->
+                <div class="question-text">
+                    <p>i major at Information management and i graduated at NTUB
+                        (National Taipei University of Business)
+                    </p>
+                </div>
+            </article>
+            <!--end of single questions -->
+
+            <!--single question 2-->
+            <article class="question">
+                <!---title question-->
+                <div class="question-title">
+                    <p>why you want major at this department</p>
+                    <button type = "button" class="question-btn">
+                        <span class = "plus-icon">
+                            <i class="far fa-plus-square"></i>
+                        </span>
+                        <span class = "minus-icon">
+                            <i class="far fa-minus-square"></i>
+                        </span>
+                    </button>
+                </div>
+                <!--end of single questions -->
+
+                <!--questions text-->
+                <div class="question-text">
+                    <p>because i realize this era is focus about internet information and algorithm
+                        and this era is getting more technological, if don't have a lot information
+                        from internet, is will easy got lost own's competitiveness
+                        so i want to learn about like AI,machine learning and basic programming
+                        not just for building self competitiveness,it make me have passion
+                        to learning about newest information how to effect to this era. 
+                    </p>
+                </div>
+            </article>
+            <!--end of single questions -->
+            
+            <!--single question 3-->
+            <article class="question">
+                <!---title question-->
+                <div class="question-title">
+                    <p>what's my major subject and which school did i graduated</p>
+                    <button type = "button" class="question-btn">
+                        <span class = "plus-icon">
+                            <i class="far fa-plus-square"></i>
+                        </span>
+                        <span class = "minus-icon">
+                            <i class="far fa-minus-square"></i>
+                        </span>
+                    </button>
+                </div>
+                <!--questions text-->
+                <div class="question-text">
+                    <p>i major at Information management and i graduated at NTUB
+                        (National Taipei University of Business)
+                    </p>
+                </div>
+            </article>
+            <!--end of single questions -->
+        </div>
+    </section>
+
+    <!-- javascript -->
+    <script src="./js/index.js"></script>
+    <script src="./js/switch.js"></script>
+  </body>
+</html>
