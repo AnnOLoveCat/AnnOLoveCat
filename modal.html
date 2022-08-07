@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= device-width, height=device-height, initial-scale=1.0, user-scalable=yes" />
+    <title>Annu's Home</title>
+    <!-- font-awesome -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <!-- extra fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap"rel="stylesheet"/>
+    <!-- styles -->
+    <link rel="stylesheet" href="./modal.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+            <a href="index.html"><img src="./pics/index_logo.png" class="logo" alt="logo" /></a>
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <ul class="links">
+            <li>
+              <a href="index.html">home</a>
+            </li>
+            <li>
+              <a href="about.html">about</a>
+            </li>
+            <li>
+              <a href="notes.html">code notes</a>
+            </li>
+            <li>
+              <a href="contact.html">contact</a>
+            </li>
+          </ul>
+        <!-- social media -->
+        <ul class="social-icons">
+          <li>
+            <a href="https://github.com/AnnOLoveCat?tab=repositories">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/AnnULoveCat">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCuxsgEw1ZFdXdkIkWLL-D3Q">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/lovecat-annu-16224a22b/">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/annulovecat/">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--hero-->
+    <header class="hero">
+        <div class="banner">
+            <h1>modal project</h1>
+            <button class = "btn modal-btn">
+                open modal
+            </button>
+        </div>
+    </header>
+    <!--end of hero-->
+    <!--modal, show the message-->
+    <div class="modal-overlay">
+        <div class="modal-container">
+            <h3>modal content</h3>
+            <button class="close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+    <!--end of modal-->
+
+    <!-- javascript -->
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
