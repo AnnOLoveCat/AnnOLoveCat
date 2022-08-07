@@ -340,7 +340,7 @@ height: auto !important;
   header {
     min-height: 100vh;
     background: linear-gradient(rgba(177, 165, 0, 0.5), rgba(171, 22, 22, 0.7)),
-      url(../pics/scenery.svg) center/cover no-repeat;
+      url(/pics/scenery.svg) center/cover no-repeat;
   }
   .banner {
     min-height: 100vh;

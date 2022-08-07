@@ -5,7 +5,7 @@ const menu = [
       html:"python.html",
       category: "code",
       date: '2021/06/21',
-      img: "./pics/python.png",
+      img: "/pics/python.png",
       desc: `python and some jupyter basic notes `,
     },
     {
@@ -14,7 +14,7 @@ const menu = [
       html:"java.html",
       category: "code",
       date: '2022/06/27',
-      img: "./pics/Java.jpg",
+      img: "/pics/Java.jpg",
       desc: `java's notes, with some basic information`,
     },
     {
@@ -22,7 +22,7 @@ const menu = [
       title: "html, css",
       category: "code",
       date:' 2021/07/23',
-      img: "./pics/html_css.png",
+      img: "/pics/html_css.png",
       desc: `html with css basic samples`,
     },
     {
@@ -30,7 +30,7 @@ const menu = [
       title: "mysql",
       category: "code",
       date: '2022/07/03',
-      img: "./pics/MySQL.png",
+      img: "/pics/MySQL.png",
       desc: `only super simple code,so here's notes just pretty less`,
     },
     {
@@ -38,7 +38,7 @@ const menu = [
         title: "unfunny didn't laugh",
         category: "funny",
         date:' 2021/07/24',
-        img: "./pics/doll.png",
+        img: "/pics/doll.png",
         desc: `funny go haha`,
       },
 ];
