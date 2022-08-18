@@ -1,3 +1,22 @@
+const reviews = [
+    {
+        id: 1,
+        name: "Annu",
+        job: "backend programmer",
+        img:
+            "pics/Me.jpg",
+        info:
+            "hi,i'm annu,i Proficient At Document Processing And Some Programming. gmail:gordon.kao118@gmail.com github:AnnOLoveCat",
+    },
+];
+
+
+// select items
+const img = document.getElementById("person-img");
+const author = document.getElementById("author");
+const job = document.getElementById("job");
+const info = document.getElementById("info");
+
 //set date
 const date = document.getElementById("date");
 date.innerHTML = new Date().getFullYear();
@@ -82,3 +101,19 @@ const preloader = document.querySelector('.preloader');
 window.addEventListener('load', function(){
     preloader.classList.add("hide-preloader");
 });
+
+//load intial item
+window.addEventListener("DOMContentLoaded",function(){
+    showPerson();
+});
+
+//set starting item
+let currentItem = 0;
+
+function showPerson() {
+    const item = reviews[currentItem];
+    img.src = item.img; 
+    author.textContent = item.name;
+    job.textContent = item.job;
+    info.textContent = item.info; 
+}
